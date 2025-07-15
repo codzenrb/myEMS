@@ -1,0 +1,7 @@
+25/06------->
+we create authentication system , when we login with predefined credentials it redirects either on the admin page or on the employee page based on the credential of person
+
+26/06-------->
+1) today we remove that functionality of direct data and add a logic to check the user from the array of data in localstorage that the credentials are valid or not 
+
+2) after this we set that wehenever we login a loggedInuUser also set in the localstorage that who is loggedIn an employee or an admin 

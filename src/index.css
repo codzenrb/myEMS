@@ -1,0 +1,35 @@
+@import "tailwindcss";
+*{
+    color: white;
+}
+
+body{
+    background-color: #111;
+}
+
+#tasklist::-webkit-scrollbar{
+    display: none;
+}
+#alltasklist::-webkit-scrollbar{
+    display: none;
+}
+#Desbox::-webkit-scrollbar{
+    display: none;
+}
+
+.high{
+    background-color: #ff0000;
+}
+.medium{
+    background-color: #ff8c00;
+}
+.low{
+    background-color: #4cc14c;
+}
+
+/* Custom breakpoint for extra small screens */
+@media (min-width: 475px) {
+    .xs\:flex-row {
+        flex-direction: row;
+    }
+}
