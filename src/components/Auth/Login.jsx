@@ -16,7 +16,7 @@ const Login = ({handleLogin}) => {
         
         <>
             <div className="w-full h-screen flex justify-center items-center p-4">
-                <h1 classname="text-center">Demo only — no real data is stored.</h1>
+                <h1 classname="text-center text-white">Demo only — no real data is stored.</h1>
                 <div className="loginCard min-h-[400px] w-full max-w-md bg-zinc-800 rounded-xl hover:bg-zinc-900 shadow-lg">
 
                     <form 
